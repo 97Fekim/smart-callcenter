@@ -2,8 +2,11 @@
 smart-callcenter
 
 ## 🔘 소개
-- 생성형 AI 모델을 기반으로 고객의 콜센터 상담내역을 분석합니다.
-- 서버리스 아키텍처로 처리 파이프라인을 자동화합니다. 
+### 생성형 AI 모델을 기반으로 고객의 콜센터 상담내역을 분석합니다.
+(Amazon Transcribe CallAnayliticsJob 번역작업) -> (Amazon Bedrock 프롬프트작업) -> (DynamoDB)
+
+### 이벤트기반 서버리스 아키텍처로, 서버를 프로비저닝할 필요가 없으며 실행한 만큼만 비용을 지불합니다.
+(업로드) -> (S3 Event Notification) -> (Lambda) -> (S3 Even....) ..... -> (DynamoDB)
 
 ## 🔘 사용 기술
 ### 프로그래밍 언어

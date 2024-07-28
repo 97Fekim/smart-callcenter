@@ -12,4 +12,4 @@ smart-callcenter
 <img src="https://img.shields.io/badge/amazon cloudfront-EC1C24?style=for-the-badge&logo=cloudfront&logoColor=black"> <img src="https://img.shields.io/badge/amazon s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black"> <img src="https://img.shields.io/badge/aws lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=black"> <img src="https://img.shields.io/badge/amazon transcribe-68BC71?style=for-the-badge&logo=amazontranscribe&logoColor=black"> <img src="https://img.shields.io/badge/amazon bedrock-68BC71?style=for-the-badge&logo=amazon bedrock&logoColor=black"> <img src="https://img.shields.io/badge/amazon dynamodb-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=black"> 
 
 ## 🔘 인프라 아키텍처
-<img src="https://github.com/user-attachments/assets/080fbc3f-6aff-43a8-91aa-264173179ac6" width=700 height=850 />
+<img src="https://github.com/user-attachments/assets/924f0b47-1dd2-4497-8a48-f4a28f5f539f" width=700 height=850 />

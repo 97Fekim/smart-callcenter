@@ -13,8 +13,7 @@ bedrock_runtime = boto3.client(
     region_name=BEDROCK_REGION_NAME
 )
 
-system_prompt = 
-"""
+system_prompt = """
 당신은 은행 콜센터의 상담내역을 분석하고, 몇가지 주요 정보를 도출해내는 임무를 맡았습니다. 
 아래에 적혀있는 (1)Input에 관한 설명과 (2)Output에 관한 요구사항 대로 주요 정보를 도출해주세요.
  - (1) Input: AGENT는 은행상담원이며, CUSTOMER는 고객입니다. 두 사람이 번갈아가며 나눈 대화이며, 각 문장의 맨 앞에는 누가 말을 했는지 명시되어 있습니다. (EX = "AGENT: 안녕하세요")

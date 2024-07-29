@@ -34,7 +34,7 @@ def lambda_handler(event, context):
             },
             OutputLocation=f's3://{DST_BUCKET_NAME}/',
             Settings={
-                'LanguageOptions': ['en-US']
+                'LanguageOptions': ['ko-KR']
             },
             ChannelDefinitions=[
                 {

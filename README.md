@@ -17,3 +17,12 @@ smart-callcenter
 
 ## 🔘 인프라 아키텍처
 <img src="https://github.com/user-attachments/assets/924f0b47-1dd2-4497-8a48-f4a28f5f539f" width=700 height=850 />
+
+## 🔘 트러블슈팅 및 배운점
+<details>
+  <summary>📒 클라이언트에서 추가한 Request Header를 Lambda에서 확인할 수 없는 문제 </summary>
+  <br> 
+   o <strong>현상</strong> : <br><br>
+   o <strong>원인</strong> : <br><br>
+   o <strong>해결안</strong> :  <br><br>
+</details>

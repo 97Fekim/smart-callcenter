@@ -10,20 +10,20 @@ SRC_BUCKET_NAME = os.environ.get('SRC_BUCKET_NAME')
 DST_BUCKET_NAME = os.environ.get('DST_BUCKET_NAME')
 
 def lambda_handler(event, context):
-    print("================print event start================")
+    print("▼▼▼ print event start ▼▼▼")
     print(event)
-    print("================print event end================")
+    print("▲▲▲ print event end ▲▲▲")
     
-    print("================print context start================")
+    print("▼▼▼ print context start ▼▼▼")
     print(context)
-    print("================print context end================")
+    print("▲▲▲ print context end ▲▲▲")
     
     for record in event['Records']:
     
         KEY = record['s3']['object']['key']
-        print("================KEY start================")
+        print("▼▼▼ KEY start ▼▼▼")
         print(KEY)
-        print("================KEY end================")
+        print("▲▲▲ KEY end ▲▲▲")
     
         job_name = str(uuid.uuid4())
         
@@ -34,7 +34,7 @@ def lambda_handler(event, context):
             },
             OutputLocation=f's3://{DST_BUCKET_NAME}/',
             Settings={
-                'LanguageOptions': ['ko-KR']
+                'LanguageOptions': ['ko-KR', 'en-US']
             },
             ChannelDefinitions=[
                 {

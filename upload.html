@@ -77,11 +77,12 @@
           var file = fileInput.files[0];
           var formData = new FormData();
           formData.append('file', file);
+		  //formData.append('file-name', file.name);
 
           $.ajax({
             url: 'https://api-gateway-endpoint', // TODO: API Gateway 엔드포인트
             type: 'POST',
-            data: formData,
+			data: formData,
             processData: false,
             contentType: false,
             success: function(response) {

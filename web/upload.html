@@ -80,11 +80,15 @@
 		  //formData.append('file-name', file.name);
 
           $.ajax({
-            url: 'https://api-gateway-endpoint', // TODO: API Gateway 엔드포인트
+            url: 'https://1uio5t0h76.execute-api.ap-northeast-2.amazonaws.com/ver1/upload', // TODO: API Gateway 엔드포인트
             type: 'POST',
 			data: formData,
-            processData: false,
-            contentType: false,
+            headers: {
+              'Content-Type': 'multipart/form-data',
+			  'File-Name' : file.name
+            },
+			contentType: false, 
+			processData: false,
             success: function(response) {
               alert('파일이 성공적으로 업로드되었습니다.');
               console.log(response);

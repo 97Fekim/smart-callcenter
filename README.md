@@ -16,11 +16,11 @@ smart-callcenter
 <img src="https://img.shields.io/badge/amazon apigateway-FF4F8B?style=for-the-badge&logo=amazonapigateway&logoColor=black"> <img src="https://img.shields.io/badge/amazon cloudfront-EC1C24?style=for-the-badge&logo=cloudfront&logoColor=black"> <img src="https://img.shields.io/badge/amazon s3-569A31?style=for-the-badge&logo=amazons3&logoColor=black"> <img src="https://img.shields.io/badge/aws lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=black"> <img src="https://img.shields.io/badge/amazon transcribe-68BC71?style=for-the-badge&logo=amazontranscribe&logoColor=black"> <img src="https://img.shields.io/badge/amazon bedrock-68BC71?style=for-the-badge&logo=amazon bedrock&logoColor=black"> <img src="https://img.shields.io/badge/amazon dynamodb-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=black"> 
 
 ## 🔘 인프라 아키텍처
-<img src="https://github.com/user-attachments/assets/924f0b47-1dd2-4497-8a48-f4a28f5f539f" width=700 height=850 />
+<img src="https://github.com/user-attachments/assets/6264d0ae-4bdb-4184-9cb1-afef84030fbd" width=1331 height=875 />
 
 ## 🔘 트러블슈팅 및 배운점
 <details>
-  <summary>📒 클라이언트에서 추가한 Request Header를 Lambda에서 확인할 수 없는 문제 </summary>
+  <summary>📒 multipart/form-data 요청시 API Gateway에서 발생하는 CORS 문제 </summary>
   <br> 
    o <strong>현상</strong> : <br><br>
    o <strong>원인</strong> : <br><br>

@@ -28,7 +28,7 @@ smart-callcenter
 </details>
 
 <details>
-  <summary>📒 RDB에 비해 집계연산이 비교적 어려운 DynamoDB  </summary>
+  <summary>📒 RDB에 비해 통계적 연산이 비교적 취약한 DynamoDB  </summary>
   <br> 
    o <strong>현상</strong> : <br><br>
    o <strong>원인</strong> : <br><br>

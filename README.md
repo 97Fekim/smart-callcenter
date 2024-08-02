@@ -6,7 +6,9 @@ smart-callcenter
 ![소개_1 0 0](https://github.com/user-attachments/assets/b1687fc3-333e-4749-9456-9f6cccdde68d)
 
 ### 👍 이벤트기반 서버리스 아키텍처로, 서버를 프로비저닝할 필요가 없으며 실행한 만큼만 비용을 지불합니다.
-(업로드) -> (S3 Event Notification) -> (Lambda) -> (S3 Even....) ..... -> (DynamoDB)
+
+![소개_2 0 0](https://github.com/user-attachments/assets/ee6e9996-04d0-4312-8f71-4bf5f60eeb0f)
+
 
 ## 🔘 사용 기술
 ### 프로그래밍 언어

@@ -24,9 +24,9 @@ smart-callcenter
 <details>
   <summary>📒 multipart/form-data 요청시 API Gateway에서 발생하는 CORS 문제 </summary>
   <br> 
-   o <strong>현상</strong> : <br><br>
-   o <strong>원인</strong> : <br><br>
-   o <strong>해결안</strong> :  <br><br>
+   o <strong>현상</strong> : 로컬 or S3에서 호스팅되는 HTML에서 API-Gateway로 multipart/form-data 요청을 보낼시, 403-CORS 발생<br><br>
+   o <strong>원인</strong> : 이진파일 업로드를 위해, multipart/form-data 요청을 API-Gateway로 보내는 경우 [통합 요청]의 매핑템플릿을 추가해야 하며, [API 설정]의 이진 미디어 형식에 multipart/form-data를 추가해야 한다.<br><br>
+   o <strong>해결안</strong> : [통합 요청]의 매핑템플릿을 추가, [API 설정]의 이진 미디어 형식에 multipart/form-data를 추가. <br><br>
 </details>
 
 <details>

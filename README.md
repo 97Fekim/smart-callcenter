@@ -32,7 +32,7 @@ smart-callcenter
 <details>
   <summary>📒 RDB에 비해 통계적 연산이 비교적 취약한 DynamoDB  </summary>
   <br> 
-   o <strong>현상</strong> : <br><br>
-   o <strong>원인</strong> : <br><br>
-   o <strong>해결안</strong> :  <br><br>
+   o <strong>현상</strong> : 분석 결과를 저장하는 테이블을 NoSQL인 DynamoDB로 선택한 이유는, "확장성" 때문이다. 관계형DB는 스키마가 한번 정해지면, 다시 수정하는 작업이 제약이 크다 (NoSQL에 비해서). 만약 추후에 분석 항목이 추가된다면 이를 테이블의 속성에도 마찬가지로 확장해야 하기 때문에, 이를 염두하여 DynamoDB를 선택했다. 하지만 분석결과에 통계작업을 거친 후에, 화면에 가져가려는 과정이 DynamoDB에서 난해하다는 것을 막바지에 깨달았다. <br><br>
+   o <strong>원인</strong> : ("현상"과 동일) <br><br>
+   o <strong>해결안</strong> : (1) DynamoDB Stream을 활용  (2) DynamoDB -> RDB로 변경  (3) RedShift 등을 활용 <br><br>
 </details>
